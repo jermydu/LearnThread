@@ -1,0 +1,10 @@
+﻿#编译器启用 UTF-8 编码支持
+add_compile_options("/utf-8")
+
+file(GLOB_RECURSE SRC ${PROJECT_SOURCE_DIR}/LearnThread_02/*.cpp)
+
+add_executable (LearnThread_02 ${SRC})
+
+if (CMAKE_VERSION VERSION_GREATER 3.12)
+  set_property(TARGET LearnThread_02 PROPERTY CXX_STANDARD 20)
+endif()
