@@ -14,3 +14,6 @@ project (LearnThread)
 # 包含子项目。
 add_subdirectory ("LearnThread_01")
 add_subdirectory ("LearnThread_02")
+add_subdirectory ("LearnThread_03")
+add_subdirectory ("LearnThread_04")
+add_subdirectory ("LearnThread_05")

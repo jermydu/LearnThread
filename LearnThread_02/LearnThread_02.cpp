@@ -5,7 +5,6 @@
 using namespace std;
 
 //使用RAII等待线程结束
-
 void DoSomething()
 {
 	std::cout << "DoSomething" << std::endl;
@@ -27,7 +26,11 @@ class ThreadGuard
 private:
 	thread& _t;
 public:
-	ThreadGuard(thread& t) :_t(t)
+	explicit ThreadGuard(thread& t) :_t(t)
+	{
+	}
+
+	~ThreadGuard()
 	{
 		if (_t.joinable())
 		{
