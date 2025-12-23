@@ -1,0 +1,6 @@
+﻿#ifndef _06_THREAD_CALL_ONCE_H
+#define _06_THREAD_CALL_ONCE_H
+
+#endif // !_06_THREAD_CALL_ONCE_H
+
+
