@@ -1,6 +1,6 @@
-﻿#ifndef _06_THREAD_CALL_ONCE_H
-#define _06_THREAD_CALL_ONCE_H
+﻿#ifndef _07_THREAD_SHARED_MUTEX_H
+#define _07_THREAD_SHARED_MUTEX_H
 
-#endif // !_06_THREAD_CALL_ONCE_H
+#endif // !_07_THREAD_SHARED_MUTEX_H
 
 
