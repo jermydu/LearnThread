@@ -1,0 +1,6 @@
+﻿#ifndef _10_THREAD_PACKAGED_TASK_H
+#define _10_THREAD_PACKAGED_TASK_H
+
+#endif // !_10_THREAD_PACKAGED_TASK_H
+
+
